@@ -1,0 +1,60 @@
+html, body {
+	margin:           0;
+	padding:          0;
+	overflow:         hidden;
+	height:           100%;
+	width:            100%;
+}
+#wrap{
+    height: 100%;
+    width:  100%;
+    background-color: #ffffff;
+	background-image: url("background.jpg");
+    color: white;}
+#bookmarks{
+	position:relative;
+	margin: auto;
+	width: 35%;
+	height: 30%;
+	top: 10%;
+
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 0.vw;
+
+	background-color: #2b2a33;
+	opacity: 0.8;
+}
+#bookmarks #linksone{
+	align:center;
+	float: left;
+	coloor:white;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+}
+
+header{
+	padding-top: 2%;
+	height: 8%;
+
+	text-align: center;
+	text-decoration: underline #ffffff 5px;
+	color: #ffffff;
+
+	font-size: 2vw;
+}
+
+a{
+	color: #ffffff;
+	font-size: 1.4vw;
+	height: fit-content;
+} a:link{
+	text-decoration: none;
+} a:hover{
+	cursor: default;
+	color: #55545B;
+} a:focus{
+	outline: none;
+	color: #ffffff;
+}
