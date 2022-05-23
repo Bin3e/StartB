@@ -1,0 +1,2 @@
+# StartB
+a simple Starterpage
