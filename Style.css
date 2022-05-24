@@ -8,7 +8,7 @@ html, body {
 #wrap{
     height: 100%;
     width:  100%;
-    background-color: #2b2a33;
+    background-color: #ffffff;
 	background-image: url("background.jpg");
     color: white;}
 #bookmarks{
@@ -20,10 +20,8 @@ html, body {
 
 	border-color: #ffffff;
 	border-style: solid;
-	border-width: 0.vw;
 
 	background-color: #2b2a33;
-	opacity: 0.8;
 }
 #bookmarks #linksone{
 	align:center;
@@ -34,6 +32,25 @@ html, body {
 	padding-top: 2%;
 }
 
+#search-bar{
+	position: relative;
+	margin: auto;
+	display: block;
+
+	width: 37.7%;
+	height: 3.5%;
+	top: 5%;
+
+	font-size: 1.75vw;
+	color: #a6a6a6;
+	padding: 1%;
+
+	border-color: #ffffff;
+	border-style: solid;
+
+	background-color: #2b2a33;
+
+}
 header{
 	padding-top: 2%;
 	height: 8%;
