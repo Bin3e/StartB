@@ -8,7 +8,7 @@ html, body {
 #wrap{
     height: 100%;
     width:  100%;
-    background-color: #ffffff;
+    background-color: #2b2a33;
 	background-image: url("background.jpg");
     color: white;}
 #bookmarks{
